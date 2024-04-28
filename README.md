@@ -1,8 +1,22 @@
-# React + Vite
+# 28.04.2024 - ANKA BLOG
+# www.yasiralakus.com.tr
+# yasiralakus11@gmail.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ANKA BLOG'A NASIL GÖZ ATABİLİRİM?
+- https://yasiralakus-ankablog.netlify.app/
 
-Currently, two official plugins are available:
+# ANKA BLOG NEDİR?
+- Her kullanıcının kayıt olup istediği konuda blog yazısı yazabileceği bir çok kullanıcılı blog platformu.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# ÖZELLİKLERİ ?
+- Kullanıcı kendi profilini oluşturabilir.
+- Kullanıcı istediği zaman kendi profilini düzenleyebilir.
+- Kullanıcı profiline sosyal medya hesaplarını da bağlayabilir. Örneğin instagram, linkedin, github, twitter vb.
+- Kullanıcı istediği konuda blog yazısı yazabilir.
+- Kullanıcı istediği zaman kendi yazdığı blog yazısını kaldırabilir.
+- Kullanıcı diğer kullanıcıların blog yazılarına yorum yapabilir, beğenebilir, kaydedebilir ve paylaşabilir.
+- Kullanıcı başka bir kullanıcıyı takip edebilir.
+- Kullanıcı profilini görmek istediği kullanıcıyı arama çubuğu sayesinde arayabilir.
+- Kullanıcılar istedikleri kategorilerdeki yazılara filtrelenmiş olarak ulaşabilirler.
+- Kullanıcılar kayıt olup giriş yapmadığı durumlarda tüm blog yazılarını okuyabilirler fakat yorum yapma, beğenme, kaydetme gibi özellikleri kullanamazlar.
+- Kullanıcılar ANKA BLOG'u bilgisayar, tablet ve telefonlarında sorunsuz kullanabilirler.
