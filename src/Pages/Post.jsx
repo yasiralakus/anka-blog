@@ -73,6 +73,10 @@ export default function Post() {
         fetchData();
     }, [])
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     async function handleAddComment(e) {
         e.preventDefault();
         const formData = new FormData(e.target);

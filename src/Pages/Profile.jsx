@@ -34,6 +34,10 @@ export default function Profile() {
         setFollowBox(false)
     }, [params])
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     const navigate = useNavigate();
     useEffect(() => {
         async function fetchData() {

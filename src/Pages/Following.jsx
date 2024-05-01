@@ -11,6 +11,10 @@ export default function Following() {
     const [loading, setLoading] = useState(false)
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
+    useEffect(() => {
         async function fetchData() {
             setLoading(true)
             let { data: follows, error } = await supabase

@@ -6,6 +6,10 @@ export default function Home() {
 
     const [loading, setLoading] = useState(false);
     const [postsData, setPostsData] = useState(null)
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     
     useEffect(() => {
         async function fetchData() {

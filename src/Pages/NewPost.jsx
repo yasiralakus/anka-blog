@@ -9,6 +9,10 @@ export default function NewPost() {
     const navigate = useNavigate();
     const [shared, setShared] = useState(false);
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
     async function handleNewPost(e) {
         e.preventDefault();
         const formData = new FormData(e.target);

@@ -17,6 +17,10 @@ export default function Category() {
     console.log(postsData)
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
+    useEffect(() => {
         async function fetchData() {
             setLoading(true)
             

@@ -12,6 +12,10 @@ export default function Saves() {
     console.log(postsData)
 
     useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
+
+    useEffect(() => {
         async function fetchData() {
             setLoading(true)
             let { data: saves, error } = await supabase

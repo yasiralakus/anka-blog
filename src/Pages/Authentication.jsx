@@ -14,6 +14,10 @@ export default function Authentication() {
         }
         fetchData();
     }, [])
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [])
     
     async function handleLogin(e) {
         e.preventDefault();
