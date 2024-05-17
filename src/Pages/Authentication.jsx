@@ -87,8 +87,6 @@ export default function Authentication() {
             alert('Kullanıcı adınız 12 karakterden fazla karakter içeremez!');
             return;
         }
-
-
         
         let { data: signup, error: errorSignup } = await supabase.auth.signUp(formObj);
 
